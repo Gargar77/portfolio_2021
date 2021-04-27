@@ -1,0 +1,45 @@
+.button-container {
+    position: relative;
+    overflow: hidden;
+
+    .button-screen {
+        position: absolute;
+        background-color: rgb(55, 113, 219);
+        height: 100%;
+        width: 100%;
+        top: 50px;
+        transition: top ease-in-out 300ms;
+    }
+
+    .custom-button {
+        position: relative;
+        z-index: 2;
+        min-width: 165px;
+        width: auto;
+        height: 50px;
+        letter-spacing: 0.5px;
+        line-height: 50px;
+        padding: 0 35px 0 35px;
+        font-size: 15px;
+        background-color: transparent;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        cursor: pointer;
+        border: 2px solid rgb(55, 113, 219);
+        text-align: center;
+
+    }
+
+    &:hover {
+        .button-screen {
+            top: 0px;
+        }
+
+        // .custom-button {
+        //     color: black;
+        // }
+    }
+
+}
+
