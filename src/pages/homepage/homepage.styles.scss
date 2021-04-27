@@ -1,4 +1,12 @@
 .homepage {
     background-color: rgb(23, 23, 41);
-    filter: blur(2px);
+    position: relative;
+    .homepage-header {
+        position: absolute;
+        color: white;
+        width: fit-content;
+        margin:auto;
+        top: calc(100vh / 3);
+        left: calc(100vw / 3);
+    }
 }
