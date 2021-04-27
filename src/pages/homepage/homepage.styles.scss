@@ -1,12 +1,21 @@
 .homepage {
     background-color: rgb(23, 23, 41);
     position: relative;
-    .homepage-header {
+    .homepage-content {
         position: absolute;
-        color: white;
         width: fit-content;
         margin:auto;
         top: calc(100vh / 3);
         left: calc(100vw / 3);
+    }
+
+    .homepage-header {
+        color: white;
+    }
+    
+    .homepage-button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
     }
 }
