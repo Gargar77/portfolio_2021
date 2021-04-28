@@ -1,3 +1,38 @@
-.about-page {
+.about-container {
     height: 100%;
+
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .text-frame,.image-frame {
+            height: 100%;
+
+        }
+
+        .text-frame {
+            padding: 20% 5%;
+
+            h1 {
+                margin-bottom: 12px;
+            }
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .bio {
+        margin-bottom: 8%;
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    
 }
