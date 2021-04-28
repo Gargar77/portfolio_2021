@@ -5,14 +5,13 @@ import './about.styles.scss';
 import Nav from '../../components/Nav/nav.component';
 import NavItem from '../../components/Nav/nav-item/nav-item.component';
 import profilePicture from '../../assets/gary_cutout_web.png';
-// TextFrame Component
-//Image component
+import { downloadResume } from '../../downloadResume';
 
 const About = (props) => (
     <div className="about-container">
         <Nav>
             <NavItem redirect click={props.animate} path="/">Home</NavItem>
-            <NavItem click={()=>null}>Resume</NavItem>
+            <NavItem click={downloadResume}>Resume</NavItem>
             <NavItem redirect click={props.animate} path="projects">projects</NavItem>
         </Nav>
         <main>

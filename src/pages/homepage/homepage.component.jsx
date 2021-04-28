@@ -7,7 +7,7 @@ import Particles from 'react-particles-js';
 import {PARTICLE_PARAMS} from '../../particles';
 import Header from '../../components/Header/header.component';
 import CustomButton from '../../components/custom-button/custom-button.component';
-
+import { downloadResume } from '../../downloadResume';
 class HomePage extends React.Component {
 
     render() {
@@ -18,7 +18,7 @@ class HomePage extends React.Component {
                 <Header withSubheading titleSize={6} subtitleSize={3.5} klass="homepage-header" title="Gary Bautista" subtitle="Software Engineer"/>
                 <div className="homepage-button-container">
                     <CustomButton buttonType="about" animate={this.props.animate} path="/about">About</CustomButton>
-                    <CustomButton buttonType="resume">Resume</CustomButton>
+                    <CustomButton buttonType="resume" click={downloadResume}>Resume</CustomButton>
                     <CustomButton buttonType="projects" animate={this.props.animate} path="/projects">Projects</CustomButton>
                 </div>
                </main>
