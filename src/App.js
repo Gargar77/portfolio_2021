@@ -34,7 +34,7 @@ animateTransitionOut = () => {
 
 animateTransition =  () => {
   this.animateTransitionIn();
-  setTimeout(this.animateTransitionOut,1000)
+  setTimeout(this.animateTransitionOut,1500)
 }
 
   render() {
