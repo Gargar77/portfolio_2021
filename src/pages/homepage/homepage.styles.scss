@@ -6,7 +6,7 @@
         width: fit-content;
         margin:auto;
         top: calc(100vh / 3);
-        left: calc(100vw / 3);
+        left: calc(100vw / 3.6);
     }
 
     .homepage-header {
@@ -15,7 +15,7 @@
     
     .homepage-button-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 24px;
     }
 }
