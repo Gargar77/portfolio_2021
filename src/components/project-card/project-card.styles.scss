@@ -1,0 +1,52 @@
+.card {
+    display: block;
+    position: relative;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 11px 0px #ffffff9e;
+    margin: 2%;
+
+    .card-info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        transition: all ease-in 400ms;
+
+        .card-title {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 2%;
+            text-align: center;
+            background-color: var(--blue);
+            opacity: 0.9;
+        }
+    
+        .card-description {
+            bottom: -300px;
+            height: 300px;
+            padding:18px;
+            position: relative;
+            color: white;
+            text-align: center;
+            display: block;
+            background-color: rgba(23, 23, 41,0.8);
+            transition: bottom ease-in 400ms, filter ease-in 1000ms;
+            box-shadow: inset 0px 0px 11px 0px #ffffff9e;
+
+        }
+
+        &:hover {
+            filter: brightness(1.2);
+            .card-description {
+                bottom: -100px;
+                filter: brightness(1.2);
+            }
+        }
+    }
+   
+}

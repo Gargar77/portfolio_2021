@@ -5,6 +5,7 @@ import './App.css';
 
 import Homepage from './pages/homepage/homepage.component';
 import About from './pages/about/about.component';
+import Projects from './pages/projects/projects.component';
 
 class App extends React.Component {
   constructor() {
@@ -47,6 +48,9 @@ animateTransition =  () => {
               <Route path='/about'>
                 <About animate={this.animateTransition}/>
               </Route>
+              <Route path="/projects">
+                <Projects animate={this.animateTransition}/>
+              </Route>  
             </Switch>
         </div>
    
