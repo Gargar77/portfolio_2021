@@ -47,7 +47,7 @@ export const PARTICLE_PARAMS = {
       },
       "line_linked": {
         "enable": true,
-        "distance": 220,
+        "distance": 200,
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 2
