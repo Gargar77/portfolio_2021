@@ -1,8 +1,8 @@
 .card {
     display: block;
     position: relative;
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: inset 0px 0px 11px 0px #ffffff9e;
@@ -29,6 +29,7 @@
         .card-description {
             bottom: -300px;
             height: 300px;
+            font-size: 1.2rem;
             padding:18px;
             position: relative;
             color: white;
