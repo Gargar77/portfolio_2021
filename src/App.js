@@ -16,7 +16,6 @@ class App extends React.Component {
   }
 
   animateTransitionIn = () => {
-    console.log('transition IN!');
     this.setState({
         ...this.state,
         isTransitioning:true,
@@ -25,12 +24,16 @@ class App extends React.Component {
 }
 
 animateTransitionOut = () => {
-    console.log('transition out!');
     this.setState({
         ...this.state,
         isTransitioning:false,
         overlayPos:100
     })
+}
+
+animateTransition =  () => {
+  this.animateTransitionIn();
+  setTimeout(this.animateTransitionOut,1000)
 }
 
   render() {
@@ -39,9 +42,11 @@ animateTransitionOut = () => {
               <div className="overlay" style={{top:`${this.state.overlayPos}vh`}}></div>
             <Switch>
               <Route exact path='/'>
-                  <Homepage animatein={this.animateTransitionIn} animateout={this.animateTransitionOut}/>
+                  <Homepage animate={this.animateTransition}/>
               </Route>
-              <Route path='/about' component={About}/>
+              <Route path='/about'>
+                <About animate={this.animateTransition}/>
+              </Route>
             </Switch>
         </div>
    

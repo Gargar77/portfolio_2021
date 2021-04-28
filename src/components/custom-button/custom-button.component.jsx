@@ -4,20 +4,17 @@ import './custom-button.styles.scss';
 
 import { useHistory } from 'react-router-dom';
 
-const CustomButton =  ({children,buttonType,animate,animatein,animateout,path = "", ...otherProps}) => {
+const CustomButton =  ({children,buttonType,animate,path = "", click = () => null, ...otherProps}) => {
     const history = useHistory();
-        
-        const animateTransition =  () => {
-                animatein();
-                setTimeout(animateout,1000)
-        }
 
-        const handleClick = async () => {
+        const handleClick = () => {
             if (animate) {
-                animateTransition();
+                animate();
                 setTimeout(()=>history.push(path),500)
-            } else {
+            } else if (path !== "") {
                 history.push(path);
+            } else {
+                click();
             }
         }
 
