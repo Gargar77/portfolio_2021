@@ -15,18 +15,18 @@ export const PROJECT_DATA = [
         title:'CleanTrac',
         projectUrl:'https://github.com/Gargar77/CleanTrac',
         imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/auth_mobile.png?alt=media&token=484ac295-38f6-4f00-8354-6d5fc7ba8a25',
-        description:"Redesigned the entire frontend of this non-profit's website for a more modern aesthethic and UX flow"
+        description:"Developed a social media platform designed for janitorial contractors to connect with people in their company"
     },
     {
         title:'meteors',
         projectUrl:'https://github.com/Gargar77/Meteors',
         imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/meteors.png?alt=media&token=00fa6577-3a75-440a-b820-8df7aff053a5',
-        description:"Redesigned the entire frontend of this non-profit's website for a more modern aesthethic and UX flow"
+        description:"Developed a basic implementation of the famous Atari game, Asteroids."
     },
     {
         title:'Neon Tic',
         projectUrl:'https://github.com/Gargar77/neon-tic-tac-toe',
         imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/neon_tic_winner.PNG?alt=media&token=06bef875-f274-46e8-9b2a-52e8a6236a03',
-        description:"Redesigned the entire frontend of this non-profit's website for a more modern aesthethic and UX flow"
+        description:"Developed a basic tic tac toe game using vanilla Javascript"
     },
 ]
