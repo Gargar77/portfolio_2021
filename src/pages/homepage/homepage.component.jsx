@@ -1,7 +1,7 @@
 import React from 'react';
 import './homepage.styles.scss';
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import Particles from 'react-particles-js';
 import {PARTICLE_PARAMS} from '../../particles';
@@ -17,9 +17,9 @@ class HomePage extends React.Component {
                <main className="homepage-content">
                 <Header withSubheading titleSize={6} subtitleSize={3.5} klass="homepage-header" title="Gary Bautista" subtitle="Software Engineer"/>
                 <div className="homepage-button-container">
-                    <CustomButton buttonType="about" animate animatein={this.props.animatein} animateout={this.props.animateout} path="/about">About</CustomButton>
-                    <CustomButton buttonType="resume"><Link style={{color:'white'}}to="/resume">resume</Link></CustomButton>
-                    <CustomButton buttonType="projects"><Link style={{color:'white'}}to="/projects">projects</Link></CustomButton>
+                    <CustomButton buttonType="about" animate={this.props.animate} path="/about">About</CustomButton>
+                    <CustomButton buttonType="resume">Resume</CustomButton>
+                    <CustomButton buttonType="projects" animate={this.props.animate} path="/projects">Projects</CustomButton>
                 </div>
                </main>
             </div>
