@@ -4,13 +4,19 @@
   height: 100vh;
 }
 
+:root {
+  --blue: rgb(55, 113, 219);
+}
+
+
 .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgb(55, 113, 219);
+  background-color: var(--blue);
   position: absolute;
   z-index: 100;
   top: 100vh;
   transition: top ease-in-out 500ms;
 }
+
 
