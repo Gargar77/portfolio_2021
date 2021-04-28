@@ -54,7 +54,7 @@ export const PARTICLE_PARAMS = {
       },
       "move": {
         "enable": true,
-        "speed": 1,
+        "speed": 0.4,
         "direction": "none",
         "random": true,
         "straight": false,
