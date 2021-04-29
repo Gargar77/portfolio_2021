@@ -16,16 +16,20 @@
             h1 {
                 margin-bottom: 12px;
             }
+
         }
 
         img {
             height: 100%;
             width: 100%;
         }
+
+       
     }
 
     .bio {
         margin-bottom: 8%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .quote {
@@ -34,5 +38,19 @@
         font-weight: bold;
     }
 
-    
+    @media screen and (max-width:500px) {
+        overflow: scroll;
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .quote {
+            font-size: 3rem;
+        }
+
+        .bio {
+            text-align: center;
+        }
+    }
 }

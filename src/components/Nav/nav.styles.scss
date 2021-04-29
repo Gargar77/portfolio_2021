@@ -5,4 +5,8 @@
     padding: 12px;
     position: relative;
     z-index: 1;
+
+    @media screen and (max-width:500px) {
+        width: 100%;
+    }
 }

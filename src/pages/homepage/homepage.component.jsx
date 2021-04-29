@@ -15,7 +15,7 @@ class HomePage extends React.Component {
             <div className="homepage">
                <Particles style={{filter:'blur(3px)'}} width={document.clientWidth} height={window.innerHeight - 4} params={PARTICLE_PARAMS}/>
                <main className="homepage-content">
-                <Header withSubheading titleSize={6} subtitleSize={3.5} klass="homepage-header" title="Gary Bautista" subtitle="Software Engineer"/>
+                <Header withSubheading klass="homepage-header" title="Gary Bautista" subtitle="Software Engineer"/>
                 <div className="homepage-button-container">
                     <CustomButton buttonType="about" animate={this.props.animate} path="/about">About</CustomButton>
                     <CustomButton buttonType="resume" click={downloadResume}>Resume</CustomButton>

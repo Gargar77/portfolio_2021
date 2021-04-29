@@ -2,13 +2,13 @@ import React from 'react';
 
 import './header.styles.scss';
 
-const Header = ({withSubheading = false,title,subtitle,klass,titleSize,subtitleSize}) => {
+const Header = ({withSubheading = false,title,subtitle,klass}) => {
     let subtitleEl = null;
 
-    if (withSubheading) subtitleEl = <h2 style={{fontSize:`${subtitleSize}rem`}}>{subtitle}</h2>;
+    if (withSubheading) subtitleEl = <h2>{subtitle}</h2>;
     return (
     <div className={`${klass} header`}>
-        <h1 style={{fontSize:`${titleSize}rem`}}>{title}</h1>
+        <h1>{title}</h1>
         {subtitleEl}
     </div>
     
