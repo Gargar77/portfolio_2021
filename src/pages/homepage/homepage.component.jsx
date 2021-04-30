@@ -13,7 +13,7 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className="homepage">
-               <Particles style={{filter:'blur(3px)'}} width={document.clientWidth} height={window.innerHeight - 4} params={PARTICLE_PARAMS}/>
+               <Particles style={{filter:'blur(3px)'}} width={document.clientWidth} height={(window.innerHeight > 500) ? window.innerHeight - 4 : window.innerHeight + 50} params={PARTICLE_PARAMS}/>
                <main className="homepage-content">
                 <Header withSubheading klass="homepage-header" title="Gary Bautista" subtitle="Software Engineer"/>
                 <div className="homepage-button-container">
