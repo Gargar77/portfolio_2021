@@ -1,6 +1,11 @@
 .nav-item {
-    color: var(--blue);
+    color: whitesmoke;
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
+    transition: color ease-in-out 300ms;
+
+    &:hover {
+        color: var(--blue);
+    }
 }
