@@ -1,5 +1,11 @@
 export const PROJECT_DATA = [
     {
+        title:'Seito Cuts',
+        projectUrl:'https://github.com/Gargar77/seito_cuts',
+        imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/Screenshot_20210519-111011.png?alt=media&token=d529ac01-9d98-4a53-8e27-97527efc3421',
+        description:"This app was made to organize a crucial part of managing restaurant servers for a local business"
+    },
+    {
         title:'frontend CRM',
         projectUrl:'#',
         imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/admin_portal_mobile.png?alt=media&token=d2963161-2611-4e48-a783-a249648f2eb1',
