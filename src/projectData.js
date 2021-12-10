@@ -1,5 +1,11 @@
 export const PROJECT_DATA = [
     {
+        title:'Recur Web: User Feedback',
+        projectUrl:'#',
+        imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/user_feedback.png?alt=media&token=ff749b31-e2b2-43d2-89ce-b7c70d757bab',
+        description:"User Feedback feature implemented for the Recur Web app, by Formation"
+    },
+    {
         title:'Seito Cuts',
         projectUrl:'https://github.com/Gargar77/seito_cuts',
         imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/Screenshot_20210519-111011.png?alt=media&token=d529ac01-9d98-4a53-8e27-97527efc3421',
@@ -22,12 +28,6 @@ export const PROJECT_DATA = [
         projectUrl:'https://github.com/Gargar77/CleanTrac',
         imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/auth_mobile.png?alt=media&token=484ac295-38f6-4f00-8354-6d5fc7ba8a25',
         description:"Developed a social media platform designed for janitorial contractors to connect with people in their company"
-    },
-    {
-        title:'meteors',
-        projectUrl:'https://github.com/Gargar77/Meteors',
-        imageUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-284cf.appspot.com/o/meteors.png?alt=media&token=00fa6577-3a75-440a-b820-8df7aff053a5',
-        description:"Developed a basic implementation of the famous Atari game, Asteroids."
     },
     {
         title:'Neon Tic',
