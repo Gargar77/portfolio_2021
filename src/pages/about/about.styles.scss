@@ -40,6 +40,9 @@
         font-weight: bold;
         filter: drop-shadow(2px 2px 2px black);
     }
+    @media screen and (min-width:1200px) {
+        overflow-y: scroll;
+    }
 
     @media screen and (max-width:1200px) {
         overflow: scroll;
@@ -68,7 +71,9 @@
 .text-frame {
     padding: 20% 5%;
     color: whitesmoke;
-
+    @media screen and (min-width:1200px) {
+        padding: 5% 5%;
+    }
     h1 {
         font-family: 'Unlock', cursive;
         margin-bottom: 12px;

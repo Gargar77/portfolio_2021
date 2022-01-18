@@ -6,6 +6,9 @@
     border-radius: 20px;
     overflow: hidden;
     margin: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .card-info {
 
@@ -23,6 +26,10 @@
             text-align: center;
             background-color: var(--blue);
             opacity: 0.9;
+            .github-logo img{
+                height: 20px;
+                margin-right: 12px;
+            }
         }
     
         .card-description {
